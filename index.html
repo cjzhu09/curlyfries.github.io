@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuestionablePropriety</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 10px;
+        }
+
+        .tile {
+            width: 150px;
+            height: 150px;
+            background-color: #3498db;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .tile:hover {
+            background-color: #2980b9;
+        }
+
+        .tile a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 16px;
+	    font-family: 'Arial Narrow', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <div class="tile" onclick="handleClick('https://cjzhu09.github.io/curlyfries.github.io/QuestionablePropriety-all.html')">
+            <a href="https://cjzhu09.github.io/curlyfries.github.io/QuestionablePropriety-all.html" target="_blank">All</a>
+        </div>
+        <div class="tile" onclick="handleClick('https://cjzhu09.github.io/curlyfries.github.io/QuestionablePropriety-war.html')">
+            <a href="https://cjzhu09.github.io/curlyfries.github.io/QuestionablePropriety-war.html" target="_blank">War</a>
+        </div>
+        <div class="tile" onclick="handleClick('https://cjzhu09.github.io/curlyfries.github.io/QuestionablePropriety-incur.html')">
+            <a href="https://cjzhu09.github.io/curlyfries.github.io/QuestionablePropriety-incur.html" target="_blank">Incursion</a>
+        </div>
+        <div class="tile" onclick="handleClick('https://cjzhu09.github.io/curlyfries.github.io/QuestionablePropriety-dd6.html')">
+            <a href="https://cjzhu09.github.io/curlyfries.github.io/QuestionablePropriety-dd6.html" target="_blank">DD6</a>
+        </div>
+        <div class="tile" onclick="handleClick('https://cjzhu09.github.io/curlyfries.github.io/QuestionablePropriety-Gamma.html')">
+            <a href="https://cjzhu09.github.io/curlyfries.github.io/QuestionablePropriety-Gamma.html" target="_blank">Gamma</a>
+        </div>
+		<div class="tile" onclick="handleClick('https://cjzhu09.github.io/curlyfries.github.io/QuestionablePropriety-incur2.html')">
+            <a href="https://cjzhu09.github.io/curlyfries.github.io/QuestionablePropriety-incur2.html" target="_blank">incur2</a>
+        </div>
+    </div>
+
+    <script>
+        function handleClick(url) {
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>
